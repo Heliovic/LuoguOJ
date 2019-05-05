@@ -17,8 +17,12 @@
 
 [Problem description](https://www.luogu.org/problemnew/show/P1002)
 
-[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1002/main.cpp)
+[C++ (100/100) - DFS](https://github.com/Heliovic/LuoguOJ/blob/master/P1002/main.cpp)
+
+[C++ (100/100) - DP](https://github.com/Heliovic/LuoguOJ/blob/master/P1002/main-dp.cpp)
 
 ### 解题思路
 
 * DFS：遍历所有可以到达的路径，注意若访问过某个点 (x, y)，则保存从该点出发的可及路径的个数，下次再访问该点时，result += ans[x][y]。事实上，这是一种递推。
+
+* 递推/动态规划：状态转移方程：dp[x][y] = dp[x + 1][y] + dp[x][y + 1]。注意边界上任意一点出发的路径条数或为 0，或为 1。
