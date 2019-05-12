@@ -36,3 +36,17 @@
 ### 解题思路
 
 数据量太大，不适合打表，直接遍历判断点是否在矩形框内即可。
+
+## P1004 方格取数
+
+[Problem description](https://www.luogu.org/problemnew/show/P1004)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1004/main.cpp)
+
+### 解题思路
+
+动态规划。dp[s][t][u][v] 表示第一次在 (s, t) 和第二次在点 (u, v) 处所能取得的最大。dp[s][t][u][v] = mat[s][t] + mat[u][v] + max(dp[s - 1][t][u - 1][v], dp[s - 1][t][u][v - 1], dp[s][t - 1][u - 1][v], dp[s][t - 1][u][v - 1])。
+
+若两个点是同一点，应只加一个 mat[s][t]，表示第一次取得 mat[s][t] 后，第二次到达 mat[s][t] 只能取 0。
+
+注意，两次分开求最大相加并不能得出总体得到的是最大。[错误示范 C++ (80/100)]((https://github.com/Heliovic/LuoguOJ/blob/master/P1004/main-80.cpp))
