@@ -72,3 +72,13 @@
 ### 解题思路
 
 两个士兵相遇时，实际上相当于互相穿越，不需要模拟转向。
+
+## P1008 三连击
+
+[Problem description](https://www.luogu.org/problemnew/show/P1008)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1008/main.cpp)
+
+### 解题思路
+
+简单DFS + 剪枝。
