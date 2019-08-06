@@ -50,3 +50,15 @@
 若两个点是同一点，应只加一个 mat[s][t]，表示第一次取得 mat[s][t] 后，第二次到达 mat[s][t] 只能取 0。
 
 注意，两次分开求最大相加并不能得出总体得到的是最大。[错误示范 C++ (80/100)]((https://github.com/Heliovic/LuoguOJ/blob/master/P1004/main-80.cpp))
+
+## P1006 传纸条
+
+[Problem description](https://www.luogu.org/problemnew/show/P1006)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1006/main.cpp)
+
+### 解题思路
+
+动态规划，同 P1004。
+
+这里通过记录步数只需使用三维数组。
