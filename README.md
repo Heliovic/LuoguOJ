@@ -87,7 +87,9 @@
 
 [Problem description](https://www.luogu.org/problemnew/show/P1009)
 
-[Java (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1009/main.cpp)
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1009/main.cpp)
+
+[Java (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1009/Main.java)
 
 ### 解题思路
 
