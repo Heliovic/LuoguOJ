@@ -94,3 +94,13 @@
 ### 解题思路
 
 大数运算。
+
+## P1010 幂次方
+
+[Problem description](https://www.luogu.org/problemnew/show/P1010)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1010/main.cpp)
+
+### 解题思路
+
+递归分治。
