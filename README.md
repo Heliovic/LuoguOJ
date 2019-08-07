@@ -82,3 +82,13 @@
 ### 解题思路
 
 简单DFS + 剪枝。
+
+## P1009 阶乘之和
+
+[Problem description](https://www.luogu.org/problemnew/show/P1009)
+
+[Java (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1009/main.cpp)
+
+### 解题思路
+
+大数运算。
