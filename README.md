@@ -3,19 +3,19 @@
 
 ## P1000 超级玛丽游戏
 
-[Problem description](https://www.luogu.org/problemnew/show/P1000)
+[Problem description](https://www.luogu.org/problem/P1000)
 
 [C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1000/main.cpp)
 
 ## P1001 A+B Problem
 
-[Problem description](https://www.luogu.org/problemnew/show/P1001)
+[Problem description](https://www.luogu.org/problem/P1001)
 
 [C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1001/main.cpp)
 
 ## P1002 过河卒
 
-[Problem description](https://www.luogu.org/problemnew/show/P1002)
+[Problem description](https://www.luogu.org/problem/P1002)
 
 [C++ (100/100) - DFS](https://github.com/Heliovic/LuoguOJ/blob/master/P1002/main.cpp)
 
@@ -29,7 +29,7 @@
 
 ## P1003 铺地毯
 
-[Problem description](https://www.luogu.org/problemnew/show/P1003)
+[Problem description](https://www.luogu.org/problem/P1003)
 
 [C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1003/main.cpp)
 
@@ -39,7 +39,7 @@
 
 ## P1004 方格取数
 
-[Problem description](https://www.luogu.org/problemnew/show/P1004)
+[Problem description](https://www.luogu.org/problem/P1004)
 
 [C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1004/main.cpp)
 
@@ -53,7 +53,7 @@
 
 ## P1006 传纸条
 
-[Problem description](https://www.luogu.org/problemnew/show/P1006)
+[Problem description](https://www.luogu.org/problem/P1006)
 
 [C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1006/main.cpp)
 
@@ -65,7 +65,7 @@
 
 ## P1007 独木桥
 
-[Problem description](https://www.luogu.org/problemnew/show/P1007)
+[Problem description](https://www.luogu.org/problem/P1007)
 
 [C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1007/main.cpp)
 
@@ -75,7 +75,7 @@
 
 ## P1008 三连击
 
-[Problem description](https://www.luogu.org/problemnew/show/P1008)
+[Problem description](https://www.luogu.org/problem/P1008)
 
 [C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1008/main.cpp)
 
@@ -85,7 +85,7 @@
 
 ## P1009 阶乘之和
 
-[Problem description](https://www.luogu.org/problemnew/show/P1009)
+[Problem description](https://www.luogu.org/problem/P1009)
 
 [C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1009/main.cpp)
 
@@ -97,10 +97,20 @@
 
 ## P1010 幂次方
 
-[Problem description](https://www.luogu.org/problemnew/show/P1010)
+[Problem description](https://www.luogu.org/problem/P1010)
 
 [C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1010/main.cpp)
 
 ### 解题思路
 
 递归分治。
+
+## P1011 车站
+
+[Problem description](https://www.luogu.org/problem/P1011)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1011/main.cpp)
+
+### 解题思路
+
+找规律递推。
