@@ -114,3 +114,13 @@
 ### 解题思路
 
 找规律递推。
+
+## P1012 拼数
+
+[Problem description](https://www.luogu.org/problem/P1012)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1012/main.cpp)
+
+### 解题思路
+
+贪心排序。
