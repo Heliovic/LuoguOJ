@@ -124,3 +124,13 @@
 ### 解题思路
 
 贪心排序。
+
+## P1014 Cantor表
+
+[Problem description](https://www.luogu.org/problem/P1014)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1014/main.cpp)
+
+### 解题思路
+
+二分，找规律。
