@@ -146,3 +146,13 @@
 大数加法。
 
 对于读取非规则数据，最好先从输入流整行读取后再进行内部处理。
+
+## P1016 旅行家的预算
+
+[Problem description](https://www.luogu.org/problem/P1016)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1016/main.cpp)
+
+### 解题思路
+
+模拟+贪心。
