@@ -168,3 +168,14 @@
 负进制。同正进制一样，取模、升阶，不同的是，当取模结果为负数时，对取模结果减去该负进制，变为正数，并从剩余数中加上该负进制。
 
 https://github.com/Heliovic/LuoguOJ/blob/master/P1017/main.cpp#L19
+
+## P1018 乘积最大
+
+[Problem description](https://www.luogu.org/problem/P1018)
+
+[C++ (90/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1018/main.cpp)
+
+### 解题思路
+
+方法一、DFS + 大数乘法。#7 TLE。
+方法二、DP。
