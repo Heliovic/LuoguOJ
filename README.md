@@ -179,3 +179,13 @@ https://github.com/Heliovic/LuoguOJ/blob/master/P1017/main.cpp#L19
 
 方法一、DFS + 大数乘法。#7 TLE。
 方法二、DP。
+
+## P2142 高精度减法
+
+[Problem description](https://www.luogu.org/problem/P2142)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P2142/main.cpp)
+
+### 解题思路
+
+大数减法。
