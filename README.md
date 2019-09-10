@@ -180,6 +180,16 @@ https://github.com/Heliovic/LuoguOJ/blob/master/P1017/main.cpp#L19
 方法一、DFS + 大数乘法。#7 TLE。
 方法二、DP。
 
+## P1037 产生数
+
+[Problem description](https://www.luogu.org/problem/P1037)
+
+[C++ (90/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1037/main.cpp)
+
+### 解题思路
+
+对于每一位，进行DFS，确定其能使用的数的数目。之后大数乘法获得答案。
+
 ## P2142 高精度减法
 
 [Problem description](https://www.luogu.org/problem/P2142)
@@ -188,4 +198,4 @@ https://github.com/Heliovic/LuoguOJ/blob/master/P1017/main.cpp#L19
 
 ### 解题思路
 
-大数减法。
+大数减法。注意输入方式，先将一行数据输入到buf中，再使用strlen进行读取。
