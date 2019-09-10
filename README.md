@@ -184,11 +184,27 @@ https://github.com/Heliovic/LuoguOJ/blob/master/P1017/main.cpp#L19
 
 [Problem description](https://www.luogu.org/problem/P1037)
 
-[C++ (90/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1037/main.cpp)
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1037/main.cpp)
 
 ### 解题思路
 
 对于每一位，进行DFS，确定其能使用的数的数目。之后大数乘法获得答案。
+
+## P1045 麦森数
+
+[Problem description](https://www.luogu.org/problem/P1045)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1045/main.cpp)
+
+### 解题思路
+
+大数乘法、大数加法。快速幂。
+
+由于题目中超过 500 位的不用算，因此只需单独将位数算出。
+
+设结果的位数为 t，则有：
+
+t = p * log10(2)。
 
 ## P2142 高精度减法
 
