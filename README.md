@@ -190,6 +190,16 @@ https://github.com/Heliovic/LuoguOJ/blob/master/P1017/main.cpp#L19
 
 根据中序遍历和先序遍历或后序遍历重建二叉树。
 
+## P1036 选数
+
+[Problem description](https://www.luogu.org/problem/P1036)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1036/main.cpp)
+
+### 解题思路
+
+子集产生 + 素数判断。
+
 ## P1037 产生数
 
 [Problem description](https://www.luogu.org/problem/P1037)
