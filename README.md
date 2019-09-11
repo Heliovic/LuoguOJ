@@ -180,6 +180,16 @@ https://github.com/Heliovic/LuoguOJ/blob/master/P1017/main.cpp#L19
 方法一、DFS + 大数乘法。#7 TLE。
 方法二、DP。
 
+## P1030 求先序排列
+
+[Problem description](https://www.luogu.org/problem/P1030)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1030/main.cpp)
+
+### 解题思路
+
+根据中序遍历和先序遍历或后序遍历重建二叉树。
+
 ## P1037 产生数
 
 [Problem description](https://www.luogu.org/problem/P1037)
