@@ -180,6 +180,17 @@ https://github.com/Heliovic/LuoguOJ/blob/master/P1017/main.cpp#L19
 方法一、DFS + 大数乘法。#7 TLE。
 方法二、DP。
 
+## P1025 数的划分
+
+[Problem description](https://www.luogu.org/problem/P1025)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1025/main.cpp)
+
+### 解题思路
+
+方法一、DFS + 剪枝。注意在 for 循环就剪枝，不要再次进入下一层搜索。
+方法二、DP。
+
 ## P1030 求先序排列
 
 [Problem description](https://www.luogu.org/problem/P1030)
