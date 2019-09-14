@@ -201,6 +201,22 @@ https://github.com/Heliovic/LuoguOJ/blob/master/P1017/main.cpp#L19
 
 根据中序遍历和先序遍历或后序遍历重建二叉树。
 
+## P1032 字串变换
+
+[Problem description](https://www.luogu.org/problem/P1032)
+
+[C++ (100/100)](https://github.com/Heliovic/LuoguOJ/blob/master/P1032/main.cpp)
+
+### 解题思路
+
+DFS 搜索。用 map<string, vector<string>> 保存所有变换。对于一个字符串，施加一次所有可行的变换，进入下一层 DFS。
+
+注意如下优化：
+
+1. 若层数已经大于等于已搜索到的层数，则可以直接返回。[优化 1](https://github.com/Heliovic/LuoguOJ/blob/master/P1032/main.cpp#L23)
+
+2. 若进入某一层时，对应的个 str 已经被搜索过，则无需搜索（用set保存，记忆化搜索）。[优化 2](https://github.com/Heliovic/LuoguOJ/blob/master/P1032/main.cpp#L20)
+
 ## P1036 选数
 
 [Problem description](https://www.luogu.org/problem/P1036)
